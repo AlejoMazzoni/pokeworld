@@ -1,6 +1,6 @@
 {
   "name": "pokeworld",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://AlejoMazzoni.github.io/pokeworld",
   "private": true,
   "dependencies": {
