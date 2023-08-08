@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/pokeworld/static/css/main.31d6cfe0.css",
+    "main.js": "/pokeworld/static/js/main.69824f55.js",
+    "static/js/787.2fa4b0c1.chunk.js": "/pokeworld/static/js/787.2fa4b0c1.chunk.js",
+    "index.html": "/pokeworld/index.html",
+    "main.69824f55.js.map": "/pokeworld/static/js/main.69824f55.js.map",
+    "787.2fa4b0c1.chunk.js.map": "/pokeworld/static/js/787.2fa4b0c1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31d6cfe0.css",
+    "static/js/main.69824f55.js"
+  ]
+}
