@@ -7,6 +7,7 @@
 ##### Added
 
 - React router
+- Sass
 
 ##### Modified
 
