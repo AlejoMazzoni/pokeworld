@@ -8,6 +8,7 @@
 
 - React router
 - Sass
+- Template for repository
 
 ##### Modified
 
