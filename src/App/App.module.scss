@@ -6,4 +6,9 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+
+  .mainPageTopContainer {
+    align-self: center;
+    max-width: 80%;
+  }
 }

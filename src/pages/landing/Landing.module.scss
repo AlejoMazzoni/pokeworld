@@ -1,4 +1,19 @@
 .landingContainer {
   height: 100vh;
   display: flex;
+  flex-direction: column;
+
+  .logoContainer {
+    align-self: center;
+
+    img {
+      width: 35rem;
+    }
+  }
+
+  .infoContainer {
+    align-self: center;
+    text-align: center;
+    max-width: 50%;
+  }
 }
