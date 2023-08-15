@@ -9,6 +9,9 @@
 - React router
 - Sass
 - Template for repository
+- Created Landing page
+- Created Header
+- Created Footer
 
 ##### Modified
 

@@ -1,0 +1,26 @@
+.landingContainer {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  .logoContainer {
+    align-self: center;
+
+    img {
+      width: 35rem;
+    }
+  }
+
+  .infoContainer {
+    align-self: center;
+    text-align: center;
+    max-width: 50%;
+
+    h1 {
+      font-size: 3rem;
+    }
+    p {
+      font-size: 1.3rem;
+    }
+  }
+}
