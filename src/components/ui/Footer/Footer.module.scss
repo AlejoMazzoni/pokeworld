@@ -1,4 +1,20 @@
-.footerContainer {
-  height: 10rem;
-  background-color: black;
+@import "/src/assets/css/media-querys.scss";
+
+@media (min-width: $mobile-s) {
+  .footerContainer {
+    height: 20rem;
+    background-color: black;
+  }
+}
+
+@media (min-width: $tablet-s) {
+  .footerContainer {
+    height: 15rem;
+  }
+}
+
+@media (min-width: $desktop-s) {
+  .footerContainer {
+    height: 12rem;
+  }
 }
