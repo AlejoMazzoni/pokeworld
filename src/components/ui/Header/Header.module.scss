@@ -1,8 +1,35 @@
+@import "/src/assets/css/media-querys.scss";
+
 .headerContainer {
   .logoContainer {
-    padding-left: 5rem;
     img {
       max-width: 7rem;
+    }
+  }
+}
+
+@media (min-width: $mobile-s) {
+  .logoContainer {
+    padding: 1rem 2rem;
+    img {
+      width: 3rem;
+    }
+  }
+}
+
+@media (min-width: $tablet-s) {
+  .logoContainer {
+    padding-left: 3rem;
+    img {
+      width: 4rem;
+    }
+  }
+}
+
+@media (min-width: $desktop-s) {
+  .logoContainer {
+    img {
+      width: 5rem;
     }
   }
 }
