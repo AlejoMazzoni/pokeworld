@@ -2,34 +2,22 @@
 
 .headerContainer {
   .logoContainer {
-    img {
-      max-width: 7rem;
-    }
-  }
-}
-
-@media (min-width: $mobile-s) {
-  .logoContainer {
     padding: 1rem 2rem;
-    img {
-      width: 3rem;
-    }
-  }
-}
 
-@media (min-width: $tablet-s) {
-  .logoContainer {
-    padding-left: 3rem;
     img {
-      width: 4rem;
-    }
-  }
-}
+      width: 2.5rem;
 
-@media (min-width: $desktop-s) {
-  .logoContainer {
-    img {
-      width: 5rem;
+      @media (min-width: $mobile-s) {
+        width: 3rem;
+      }
+
+      @media (min-width: $tablet-s) {
+        width: 4rem;
+      }
+
+      @media (min-width: $desktop-s) {
+        width: 5rem;
+      }
     }
   }
 }
