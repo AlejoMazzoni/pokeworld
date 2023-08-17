@@ -1,8 +1,13 @@
+@import "/src/assets/css/media-querys.scss";
+
 .landingContainer {
-  height: 100vh;
+  min-height: 30rem;
   display: flex;
   flex-direction: column;
   gap: 5rem;
+
+  @media (min-width: $mobile-s) {
+  }
   .logoContainer {
     align-self: center;
 
@@ -14,13 +19,11 @@
   .infoContainer {
     align-self: center;
     text-align: center;
-    max-width: 50%;
+    max-width: 60%;
 
     h1 {
-      font-size: 3rem;
     }
     p {
-      font-size: 1.3rem;
     }
   }
 }

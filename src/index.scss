@@ -1,5 +1,49 @@
+@import "/src/assets/css/media-querys.scss";
+
+@font-face {
+  font-family: "Nunito";
+  src: local("Nunito"),
+    url("./assets/fonts/Nunito/Nunito-VariableFont_wght.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
 body {
   margin: 0 auto;
   max-width: 100%;
   max-height: 100%;
+  font-family: "Nunito";
+}
+
+h1 {
+  margin: 0;
+  font-size: 2rem;
+
+  @media (min-width: $mobile-s) {
+    font-size: 2.3rem;
+  }
+
+  @media (min-width: $tablet-s) {
+    font-size: 2.7rem;
+  }
+
+  @media (min-width: $desktop-s) {
+    font-size: 3.5rem;
+  }
+}
+
+p {
+  margin: 0;
+
+  @media (min-width: $mobile-s) {
+    font-size: 1rem;
+  }
+
+  @media (min-width: $tablet-s) {
+    font-size: 1.2rem;
+  }
+
+  @media (min-width: $desktop-s) {
+    font-size: 1.3rem;
+  }
 }
