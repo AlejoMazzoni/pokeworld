@@ -6,24 +6,21 @@
   flex-direction: column;
   gap: 5rem;
 
-  @media (min-width: $mobile-s) {
+  @media (min-width: $tablet-s) {
+    height: 50rem;
   }
-  .logoContainer {
-    align-self: center;
 
-    img {
-      width: 35rem;
-    }
+  @media (min-width: $desktop-s) {
+    height: 40rem;
   }
 
   .infoContainer {
     align-self: center;
     text-align: center;
-    max-width: 60%;
+    max-width: 80%;
 
-    h1 {
-    }
-    p {
+    @media (min-width: $mobile-s) {
+      width: 75%;
     }
   }
 }
