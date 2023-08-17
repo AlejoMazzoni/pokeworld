@@ -12,6 +12,7 @@
 - Created Landing page
 - Created Header
 - Created Footer
+- Responsive design
 
 ##### Modified
 

@@ -1,5 +1,5 @@
 import renderer from "react-test-renderer";
-import Landing from "./Landing";
+import Landing from "../../pages/landing/Landing";
 
 describe("Landing", () => {
   it("renders everything correctly", () => {

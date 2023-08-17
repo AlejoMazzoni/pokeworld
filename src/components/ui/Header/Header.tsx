@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <div className={styles.headerContainer}>
       <div className={styles.logoContainer}>
-        <img src={logoHeader} />
+        <img src={logoHeader} alt="Pokeball logo" />
       </div>
     </div>
   );
