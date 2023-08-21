@@ -8,12 +8,16 @@ const NotFound = () => {
       <div className={styles.textContainer}>
         <img src={image404} />
         <h3>Page not found.</h3>
-        <p>The page you're looking for doesn't exist.</p>
-        <p>Click the button to return home</p>
+        <p>
+          It seems the page you're looking for doesn't exist.
+          <br />
+          <br />
+          Click the button to return home
+        </p>
       </div>
       <div className={styles.buttonContainer}>
         <Link to="/">
-          <button>Home</button>
+          <button>GO BACK</button>
         </Link>
       </div>
     </div>
