@@ -14,6 +14,7 @@
 - Created Footer
 - Responsive design
 - Hash mode in router
+- Error 404 page
 
 ##### Modified
 
