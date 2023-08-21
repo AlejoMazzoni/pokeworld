@@ -1,0 +1,109 @@
+@import "/src/assets/css/media-querys.scss";
+
+.notFoundContainer {
+  min-height: 28rem;
+  width: 20rem;
+  background-color: #f5f5f5;
+  margin-bottom: 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  border-radius: 1.5rem;
+
+  @media (min-width: $mobile-l) {
+    width: 100%;
+  }
+
+  @media (min-width: $tablet-s) {
+    margin: 0.7rem 0 6rem;
+    height: 38rem;
+    justify-content: center;
+  }
+
+  @media (min-width: $desktop-s) {
+    height: 47rem;
+    width: 90%;
+    align-self: center;
+  }
+
+  .textContainer {
+    padding: 3rem 2rem;
+    padding-bottom: 0;
+
+    @media (min-width: $tablet-s) {
+      padding-top: 0;
+    }
+
+    img {
+      width: 14rem;
+      display: flex;
+      margin: 0 auto;
+
+      @media (min-width: $mobile-l) {
+        width: 20rem;
+      }
+
+      @media (min-width: $tablet-s) {
+        width: 25rem;
+      }
+
+      @media (min-width: $desktop-s) {
+        width: 40rem;
+      }
+
+      @media (min-width: $desktop-l) {
+        width: 47rem;
+      }
+    }
+
+    h3 {
+      text-align: center;
+      @media (min-width: $tablet-s) {
+        font-size: 1.7rem;
+        margin: 2rem 0rem 1;
+      }
+
+      @media (min-width: $desktop-s) {
+        font-size: 2rem;
+        margin: 1rem;
+      }
+
+      @media (min-width: $desktop-l) {
+        font-size: 2.5rem;
+      }
+    }
+
+    h3,
+    p {
+      color: grey;
+    }
+  }
+
+  .buttonContainer {
+    margin: 0 auto;
+    button {
+      background-color: #51b8ec;
+      font-weight: 600;
+      padding: 1rem 3rem;
+      border-radius: 1rem;
+      border: none;
+      cursor: pointer;
+
+      @media (min-width: $tablet-s) {
+        padding: 1.1rem 4rem;
+        font-size: 1rem;
+      }
+
+      @media (min-width: $desktop-s) {
+        padding: 1.1rem 4.5rem;
+        font-size: 1.4rem;
+      }
+    }
+
+    button:hover {
+      transition-duration: 0.5s;
+      background-color: rgba(125, 222, 235, 0.829);
+      color: black;
+    }
+  }
+}
