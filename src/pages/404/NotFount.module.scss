@@ -22,9 +22,6 @@
 
   @media (min-width: $desktop-s) {
     height: 47rem;
-  }
-
-  @media (min-width: $desktop-s) {
     width: 90%;
     align-self: center;
   }
@@ -74,10 +71,6 @@
       @media (min-width: $desktop-l) {
         font-size: 2.5rem;
       }
-    }
-
-    p {
-      text-align: center;
     }
 
     h3,
