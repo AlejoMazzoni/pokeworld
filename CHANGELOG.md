@@ -13,6 +13,7 @@
 - Created Header
 - Created Footer
 - Responsive design
+- Hash mode in router
 
 ##### Modified
 
