@@ -9,7 +9,9 @@
   background-position: center;
 
   .mainPageTopContainer {
+    display: flex;
     align-self: center;
+    justify-content: center;
     min-width: 80%;
   }
 }
