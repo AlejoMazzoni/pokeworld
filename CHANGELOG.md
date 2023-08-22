@@ -15,6 +15,7 @@
 - Responsive design
 - Hash mode in router
 - Error 404 page
+- Button component
 
 ##### Modified
 
