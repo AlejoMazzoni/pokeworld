@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import styles from "./NotFount.module.scss";
 import image404 from "../../assets/images/404-image.png";
+import Button from "../../components/ui/Button/Button";
 
 const NotFound = () => {
   return (
@@ -17,7 +18,7 @@ const NotFound = () => {
       </div>
       <div className={styles.buttonContainer}>
         <Link to="/">
-          <button>GO BACK</button>
+          <Button>GO BACK</Button>
         </Link>
       </div>
     </div>
