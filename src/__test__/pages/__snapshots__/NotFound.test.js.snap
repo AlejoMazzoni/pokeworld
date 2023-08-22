@@ -27,9 +27,13 @@ exports[`NotFound renders everything correctly 1`] = `
       href="#/"
       onClick={[Function]}
     >
-      <button>
-        GO BACK
-      </button>
+      <div
+        className="buttonContainer"
+      >
+        <button>
+          GO BACK
+        </button>
+      </div>
     </a>
   </div>
 </div>
