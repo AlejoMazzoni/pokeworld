@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header renders everything correctly 1`] = `
+<div
+  className="headerContainer"
+>
+  <div
+    className="logoContainer"
+  >
+    <img
+      alt="Pokeball logo"
+      src="logo-header.png"
+    />
+  </div>
+</div>
+`;
