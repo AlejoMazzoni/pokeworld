@@ -1,0 +1,30 @@
+@import "/src/assets/css/media-querys.scss";
+
+.buttonContainer {
+  margin: 1rem;
+
+  button {
+    background-color: #51b8ec;
+    font-weight: 600;
+    padding: 0.8rem 2.7rem;
+    border-radius: 1rem;
+    border: none;
+    cursor: pointer;
+
+    @media (min-width: $tablet-s) {
+      padding: 1.1rem 4rem;
+      font-size: 1rem;
+    }
+
+    @media (min-width: $desktop-s) {
+      padding: 1.1rem 4.5rem;
+      font-size: 1.4rem;
+    }
+  }
+
+  button:hover {
+    transition-duration: 0.5s;
+    background-color: rgba(125, 222, 235, 0.829);
+    color: black;
+  }
+}
