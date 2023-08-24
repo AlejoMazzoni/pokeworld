@@ -1,10 +1,11 @@
 @import "/src/assets/css/media-querys.scss";
+@import "/src/assets/css/colors.scss";
 
 .buttonContainer {
   margin: 1rem;
 
   button {
-    background-color: #51b8ec;
+    background-color: $background-color-button;
     font-weight: 600;
     padding: 0.8rem 2.7rem;
     border-radius: 1rem;
@@ -24,7 +25,6 @@
 
   button:hover {
     transition-duration: 0.5s;
-    background-color: rgba(125, 222, 235, 0.829);
-    color: black;
+    background-color: $background-color-button-hover;
   }
 }
