@@ -1,11 +1,10 @@
 @import "/src/assets/css/media-querys.scss";
-@import "/src/assets/css/colors.scss";
 
 .buttonContainer {
   margin: 1rem;
 
   button {
-    background-color: $background-color-button;
+    background-color: var(--background-color-button);
     font-weight: 600;
     padding: 0.8rem 2.7rem;
     border-radius: 1rem;
@@ -25,6 +24,6 @@
 
   button:hover {
     transition-duration: 0.5s;
-    background-color: $background-color-button-hover;
+    background-color: var(--background-color-button-hover);
   }
 }
