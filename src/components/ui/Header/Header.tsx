@@ -15,6 +15,8 @@ const Header = ({ switchTheme, theme }: IHeader) => {
     <div className={styles.headerContainer}>
       <div className={styles.logoContainer}>
         <img src={logoHeader} alt="Pokeball logo" />
+      </div>
+      <div className={styles.darkmodeContainer}>
         <button onClick={(event) => switchTheme()}>
           {theme === "dark" ? (
             <FontAwesomeIcon

@@ -10,31 +10,6 @@
   background-size: cover;
   background-position: center;
 
-  .headerTopContainer {
-    display: flex;
-    justify-content: space-between;
-
-    button {
-      border: none;
-      height: 2.3rem;
-      align-self: center;
-      background-color: var(--background-color-transparent);
-      margin-right: 1rem;
-
-      @media (min-width: $tablet-s) {
-        height: 2.5rem;
-      }
-
-      .darkmodeIcon {
-        color: var(--main-background-color-inverted);
-
-        @media (min-width: $tablet-s) {
-          font-size: 2.5rem;
-        }
-      }
-    }
-  }
-
   .mainPageTopContainer {
     display: flex;
     align-self: center;
