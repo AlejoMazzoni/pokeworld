@@ -1,6 +1,34 @@
 @import "/src/assets/css/media-querys.scss";
 
 .headerContainer {
+  display: flex;
+  justify-content: space-between;
+
+  .darkmodeContainer {
+    align-self: center;
+
+    button {
+      border: none;
+      height: 2.3rem;
+      width: 2.3rem;
+      margin-right: 2rem;
+      cursor: pointer;
+      background-color: var(----background-color-transparent);
+
+      @media (min-width: $tablet-s) {
+        height: 2.5rem;
+      }
+
+      .darkmodeIcon {
+        color: var(--main-background-color-inverted);
+
+        @media (min-width: $tablet-s) {
+          font-size: 2.5rem;
+        }
+      }
+    }
+  }
+
   .logoContainer {
     padding: 1rem 2rem;
 

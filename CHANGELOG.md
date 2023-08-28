@@ -17,6 +17,7 @@
 - Error 404 page
 - Button component
 - Colors variable
+- Dark mode
 
 ##### Modified
 

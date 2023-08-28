@@ -4,12 +4,24 @@ import NotFound from "../pages/404/NotFound";
 import Landing from "../pages/landing/Landing";
 import styles from "./App.module.scss";
 import { Routes, Route } from "react-router-dom";
+import useLocalStorage from "use-local-storage";
 
 function App() {
+  const defaultDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+  const [theme, setTheme] = useLocalStorage(
+    "theme",
+    defaultDark ? "dark" : "light"
+  );
+
+  const switchTheme = () => {
+    const newTheme = theme === "light" ? "dark" : "light";
+    setTheme(newTheme);
+  };
+
   return (
-    <div className={styles.appContainer}>
+    <div className={styles.appContainer} data-theme={theme}>
       <div className={styles.headerTopContainer}>
-        <Header />
+        <Header switchTheme={switchTheme} theme={theme} />
       </div>
       <div className={styles.mainPageTopContainer}>
         <Routes>

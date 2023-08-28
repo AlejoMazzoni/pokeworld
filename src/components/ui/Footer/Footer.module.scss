@@ -2,7 +2,7 @@
 
 .footerContainer {
   height: 22rem;
-  background-color: black;
+  background-color: var(--main-background-color);
 
   @media (min-width: $mobile-s) {
     height: 20rem;

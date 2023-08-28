@@ -51,3 +51,27 @@ p {
     font-size: 1.3rem;
   }
 }
+
+:root {
+  --main-background-color: #e5e5e5;
+  --main-background-color-inverted: black;
+  --secondary-background-color: #f5f5f5;
+  --background-color-transparent: transparent;
+
+  --background-color-button: #51b8ec;
+  --background-color-button-hover: rgba(125, 222, 235, 0.829);
+
+  --main-font-color: black;
+}
+
+[data-theme="dark"] {
+  --main-background-color: black;
+  --main-background-color-inverted: #b0b0b0;
+  --secondary-background-color: #0b0b0b;
+  --background-color-transparent: transparent;
+
+  --background-color-button: rgba(125, 222, 235, 0.829);
+  --background-color-button-hover: #51b8ec;
+
+  --main-font-color: grey;
+}

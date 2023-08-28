@@ -1,10 +1,9 @@
 @import "/src/assets/css/media-querys.scss";
-@import "/src/assets/css/colors.scss";
 
 .notFoundContainer {
   min-height: 28rem;
   width: 20rem;
-  background-color: $main-background-color-light;
+  background-color: var(--secondary-background-color);
   margin-bottom: 5rem;
   display: flex;
   flex-direction: column;
@@ -76,7 +75,7 @@
     h3,
     p {
       text-align: center;
-      color: $main-font-color-light;
+      color: var(--main-font-color);
     }
   }
 

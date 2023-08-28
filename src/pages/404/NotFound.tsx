@@ -7,6 +7,7 @@ const NotFound = () => {
   return (
     <div className={styles.notFoundContainer}>
       <div className={styles.textContainer}>
+        <div className={styles.backdropFilter}></div>
         <img src={image404} />
         <h3>Page not found.</h3>
         <p>

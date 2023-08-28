@@ -7,6 +7,9 @@ exports[`NotFound renders everything correctly 1`] = `
   <div
     className="textContainer"
   >
+    <div
+      className="backdropFilter"
+    />
     <img
       src="404-image.png"
     />
