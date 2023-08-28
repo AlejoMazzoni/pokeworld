@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import styles from "./NotFount.module.scss";
+import styles from "./NotFound.module.scss";
 import image404 from "../../assets/images/404-image.png";
 import Button from "../../components/ui/Button/Button";
 
