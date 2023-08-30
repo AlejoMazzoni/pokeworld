@@ -7,7 +7,7 @@
   margin-bottom: 5rem;
   display: flex;
   flex-direction: column;
-  gap: 2.5rem;
+  gap: 1rem;
   border-radius: 1.5rem;
 
   @media (min-width: $mobile-l) {
@@ -27,7 +27,7 @@
   }
 
   .textContainer {
-    padding: 3rem 2rem;
+    padding: 1rem 2rem;
     padding-bottom: 0;
 
     @media (min-width: $tablet-s) {
@@ -40,31 +40,27 @@
       margin: 0 auto;
 
       @media (min-width: $mobile-l) {
-        width: 20rem;
+        width: 17.5rem;
       }
 
       @media (min-width: $tablet-s) {
-        width: 25rem;
+        width: 22rem;
       }
 
       @media (min-width: $desktop-s) {
-        width: 40rem;
-      }
-
-      @media (min-width: $desktop-l) {
-        width: 47rem;
+        width: 30rem;
       }
     }
 
     h3 {
       @media (min-width: $tablet-s) {
         font-size: 1.7rem;
-        margin: 2rem 0rem 1;
+        margin: 1rem 0rem;
       }
 
       @media (min-width: $desktop-s) {
         font-size: 2rem;
-        margin: 1rem;
+        margin: 0rem;
       }
 
       @media (min-width: $desktop-l) {
@@ -81,5 +77,6 @@
 
   .buttonContainer {
     margin: 0 auto;
+    padding-bottom: 1rem;
   }
 }
